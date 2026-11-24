@@ -1,3 +1,28 @@
 **/work/
 **/results/
 .nextflow*
+# Local runtime
+.runtime/
+*.sif
+*.img
+
+# Nextflow
+.nextflow/
+.nextflow.log*
+work/
+results/
+
+# Execution reports
+trace-*.txt
+report-*.html
+timeline-*.html
+
+__pycache__/
+
+dag-*.html
+
+varcall_finalize/
+
+varcall_finalize.zip
+
+README_STEP2.md
